@@ -13,7 +13,6 @@ function noDuplicate (array){
 
 const briyaniKhor = ['khaled','korim','rashed','khaled','kuddus','korim'];
 const arrayNumbers = [22,55,23,20,12,22,55,20];
-
 const uniqueArray = noDuplicate(briyaniKhor);
 const uniqueNumbers = noDuplicate(arrayNumbers);
 console.log(uniqueArray);

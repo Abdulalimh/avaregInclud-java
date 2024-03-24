@@ -45,7 +45,7 @@ function totalNumber(numbers){
 }
 
 
-const numbers =[20,45,60,81,65,30,90,99,20,99,99,100,50]
+const numbers =[20,100,45,60,81,65,30,90,99,80,20,99,99,100,50]
 const avg =oddsNumber(numbers);
 const avg2 = eventNumber(numbers);
 const avg3 = totalNumber(numbers);
