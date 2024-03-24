@@ -11,3 +11,19 @@ a=b;
 b=x;
 
 console.log(a,b);
+
+
+
+// My practice //
+// My practice //
+// My practice //
+// My practice //
+
+// The function to convert temperature from Celsius to Fahrenheit.
+
+function temperature (celsius) {
+    const fahrenheit = celsius * 1.8 + 32;
+    return fahrenheit;
+}
+const fahrenheitConvert = temperature(100);
+console.log(fahrenheitConvert + ' F');
