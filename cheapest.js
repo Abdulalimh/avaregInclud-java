@@ -39,3 +39,30 @@ function getMax (numbers){
 }
 const mullo = getMax(price);
 console.log(' Shob cheye Beshi dam : ', mullo);
+
+
+
+
+// 3.  kono object er dam onujai kom beshi nirdharon korar program ......
+
+const mobiles = [ 
+    {mobile : 'Sumsung',price: 50000,camera:'12mp', Color: 'black'},
+    {mobile : 'Nokia',price: 28000,camera: '12mp', Color: 'black'},
+    {mobile : 'Iphone',price: 120000,camera: '12mp', Color: 'black'},
+    {mobile : 'Realme',price: 30000,camera: '12mp', Color: 'black'},
+    {mobile : 'Xomi',price: 39000,camera: '12mp', Color: 'black'},
+    {mobile : 'Oppo',price: 40000,camera: '12mp', Color: 'black'}
+]
+
+function getMinPricePhone (phones){
+    let min = phones[0];
+    for(const phone of phones ){
+        if(min.price > phone.price){
+            min = phone;
+        }
+    }
+    return min ;
+    
+}
+const lowPrice = getMinPricePhone(mobiles);
+console.log('low Price phone in my Shop :', lowPrice);
